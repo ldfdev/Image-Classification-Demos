@@ -1,0 +1,294 @@
+Press any keyboard to start training the model...
+Class labels frequencies >= 50 are present in training and validation
+    Whale_ID  Whale_freq
+0  w_23a388d          73
+1  w_9b5109b          65
+2  w_9c506f6          62
+3  w_0369a5c          61
+4  w_700ebb4          57
+5  w_3de579a          54
+6  w_564a34b          51
+7  w_fd3e556          50
+train dataset size (332, 2). val dataset size (141, 2)
+val dataset size - containing only class labels from train dataset  (141, 2)
+Epoch 0/24
+----------
+Train: Epoch number    0 batch    0 Current loss 0.1168
+
+Train: Epoch number    0 batch    1 Current loss 0.1165
+
+Train: Epoch number    0 batch    2 Current loss 0.1161
+
+Train: Epoch number    0 batch    3 Current loss 0.1158
+
+Train: Epoch number    0 batch    4 Current loss 0.1155
+
+Train: Epoch number    0 batch    5 Current loss 0.1152
+
+Train: Epoch number    0 batch    6 Current loss 0.1148
+
+Train: Epoch number    0 batch    7 Current loss 0.1145
+
+Train: Epoch number    0 batch    8 Current loss 0.1143
+
+Train: Epoch number    0 batch    9 Current loss 0.1140
+
+Train: Epoch number    0 batch   10 Current loss 0.1138
+
+Train: Epoch number    0 batch   11 Current loss 0.1135
+
+Train: Epoch number    0 batch   12 Current loss 0.1133
+
+Train: Epoch number    0 batch   13 Current loss 0.1130
+
+Train: Epoch number    0 batch   14 Current loss 0.1127
+
+Train: Epoch number    0 batch   15 Current loss 0.1125
+
+Train: Epoch number    0 batch   16 Current loss 0.1147
+
+Train: Epoch number    0 batch   17 Current loss 0.1144
+
+Train: Epoch number    0 batch   18 Current loss 0.1141
+
+Train: Epoch number    0 batch   19 Current loss 0.1138
+
+Train: Epoch number    0 batch   20 Current loss 0.1135
+
+Train: Epoch number    0 batch   21 Current loss 0.1132
+
+Non duplicate entries(i.e. class labels) as feature vectors:  332
+prediction [6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]
+Eval: Epoch number    0 batch    0 accuracy 0.2667
+
+prediction [6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]
+Eval: Epoch number    0 batch    1 accuracy 0.1333
+
+prediction [6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]
+Eval: Epoch number    0 batch    2 accuracy 0.0667
+
+prediction [6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]
+Eval: Epoch number    0 batch    3 accuracy 0.0667
+
+prediction [6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]
+Eval: Epoch number    0 batch    4 accuracy 0.0667
+
+prediction [6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]
+Eval: Epoch number    0 batch    5 accuracy 0.0667
+
+prediction [6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]
+Eval: Epoch number    0 batch    6 accuracy 0.0000
+
+prediction [6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]
+Eval: Epoch number    0 batch    7 accuracy 0.2000
+
+prediction [6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]
+Eval: Epoch number    0 batch    8 accuracy 0.0000
+
+prediction [6 6 6 6 6 6]
+Eval: Epoch number    0 batch    9 accuracy 0.1333
+
+Per epoch: val aacuracy = 0.10638297872340426
+Epoch 1/24
+----------
+Train: Epoch number    1 batch    0 Current loss 0.1131
+
+Train: Epoch number    1 batch    1 Current loss 0.1128
+
+Train: Epoch number    1 batch    2 Current loss 0.1124
+
+Train: Epoch number    1 batch    3 Current loss 0.1121
+
+Train: Epoch number    1 batch    4 Current loss 0.1118
+
+Train: Epoch number    1 batch    5 Current loss 0.1114
+
+Train: Epoch number    1 batch    6 Current loss 0.1111
+
+Train: Epoch number    1 batch    7 Current loss 0.1108
+
+Train: Epoch number    1 batch    8 Current loss 0.1111
+
+Train: Epoch number    1 batch    9 Current loss 0.1108
+
+Train: Epoch number    1 batch   10 Current loss 0.1105
+
+Train: Epoch number    1 batch   11 Current loss 0.1102
+
+Train: Epoch number    1 batch   12 Current loss 0.1099
+
+Train: Epoch number    1 batch   13 Current loss 0.1097
+
+Train: Epoch number    1 batch   14 Current loss 0.1094
+
+Train: Epoch number    1 batch   15 Current loss 0.1091
+
+Train: Epoch number    1 batch   16 Current loss 0.1115
+
+Train: Epoch number    1 batch   17 Current loss 0.1112
+
+Train: Epoch number    1 batch   18 Current loss 0.1109
+
+Train: Epoch number    1 batch   19 Current loss 0.1105
+
+Train: Epoch number    1 batch   20 Current loss 0.1102
+
+Train: Epoch number    1 batch   21 Current loss 0.1099
+
+Non duplicate entries(i.e. class labels) as feature vectors:  332
+prediction [6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]
+Eval: Epoch number    1 batch    0 accuracy 0.2000
+
+prediction [6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]
+Eval: Epoch number    1 batch    1 accuracy 0.0000
+
+prediction [6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]
+Eval: Epoch number    1 batch    2 accuracy 0.1333
+
+prediction [6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]
+Eval: Epoch number    1 batch    3 accuracy 0.0667
+
+prediction [6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]
+Eval: Epoch number    1 batch    4 accuracy 0.1333
+
+prediction [6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]
+Eval: Epoch number    1 batch    5 accuracy 0.1333
+
+prediction [6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]
+Eval: Epoch number    1 batch    6 accuracy 0.1333
+
+prediction [6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]
+Eval: Epoch number    1 batch    7 accuracy 0.0667
+
+prediction [6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]
+Eval: Epoch number    1 batch    8 accuracy 0.0667
+
+prediction [6 6 6 6 6 6]
+Eval: Epoch number    1 batch    9 accuracy 0.0667
+
+Per epoch: val aacuracy = 0.10638297872340426
+Epoch 2/24
+----------
+Train: Epoch number    2 batch    0 Current loss 0.1092
+
+Train: Epoch number    2 batch    1 Current loss 0.1089
+
+Train: Epoch number    2 batch    2 Current loss 0.1086
+
+Train: Epoch number    2 batch    3 Current loss 0.1082
+
+Train: Epoch number    2 batch    4 Current loss 0.1079
+
+Train: Epoch number    2 batch    5 Current loss 0.1076
+
+Train: Epoch number    2 batch    6 Current loss 0.1073
+
+Train: Epoch number    2 batch    7 Current loss 0.1069
+
+Train: Epoch number    2 batch    8 Current loss 0.1075
+
+Train: Epoch number    2 batch    9 Current loss 0.1072
+
+Train: Epoch number    2 batch   10 Current loss 0.1069
+
+Train: Epoch number    2 batch   11 Current loss 0.1067
+
+Train: Epoch number    2 batch   12 Current loss 0.1064
+
+Train: Epoch number    2 batch   13 Current loss 0.1061
+
+Train: Epoch number    2 batch   14 Current loss 0.1058
+
+Train: Epoch number    2 batch   15 Current loss 0.1055
+
+Train: Epoch number    2 batch   16 Current loss 0.1079
+
+Train: Epoch number    2 batch   17 Current loss 0.1076
+
+Train: Epoch number    2 batch   18 Current loss 0.1073
+
+Train: Epoch number    2 batch   19 Current loss 0.1069
+
+Train: Epoch number    2 batch   20 Current loss 0.1066
+
+Train: Epoch number    2 batch   21 Current loss 0.1062
+
+Non duplicate entries(i.e. class labels) as feature vectors:  332
+prediction [6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]
+Eval: Epoch number    2 batch    0 accuracy 0.0667
+
+prediction [6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]
+Eval: Epoch number    2 batch    1 accuracy 0.1333
+
+prediction [6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]
+Eval: Epoch number    2 batch    2 accuracy 0.0667
+
+prediction [6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]
+Eval: Epoch number    2 batch    3 accuracy 0.1333
+
+prediction [6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]
+Eval: Epoch number    2 batch    4 accuracy 0.1333
+
+prediction [6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]
+Eval: Epoch number    2 batch    5 accuracy 0.0000
+
+prediction [6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]
+Eval: Epoch number    2 batch    6 accuracy 0.0000
+
+prediction [6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]
+Eval: Epoch number    2 batch    7 accuracy 0.2667
+
+prediction [6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]
+Eval: Epoch number    2 batch    8 accuracy 0.0667
+
+prediction [6 6 6 6 6 6]
+Eval: Epoch number    2 batch    9 accuracy 0.1333
+
+Per epoch: val aacuracy = 0.10638297872340426
+Epoch 3/24
+----------
+Train: Epoch number    3 batch    0 Current loss 0.1052
+
+Train: Epoch number    3 batch    1 Current loss 0.1048
+
+Train: Epoch number    3 batch    2 Current loss 0.1045
+
+Train: Epoch number    3 batch    3 Current loss 0.1042
+
+Train: Epoch number    3 batch    4 Current loss 0.1039
+
+Train: Epoch number    3 batch    5 Current loss 0.1035
+
+Train: Epoch number    3 batch    6 Current loss 0.1032
+
+Train: Epoch number    3 batch    7 Current loss 0.1029
+
+Train: Epoch number    3 batch    8 Current loss 0.1037
+
+Train: Epoch number    3 batch    9 Current loss 0.1034
+
+Train: Epoch number    3 batch   10 Current loss 0.1031
+
+Train: Epoch number    3 batch   11 Current loss 0.1028
+
+Train: Epoch number    3 batch   12 Current loss 0.1025
+
+Train: Epoch number    3 batch   13 Current loss 0.1022
+
+Train: Epoch number    3 batch   14 Current loss 0.1019
+
+Train: Epoch number    3 batch   15 Current loss 0.1016
+
+Train: Epoch number    3 batch   16 Current loss 0.1040
+
+Train: Epoch number    3 batch   17 Current loss 0.1036
+
+Train: Epoch number    3 batch   18 Current loss 0.1032
+
+Train: Epoch number    3 batch   19 Current loss 0.1029
+
+Train: Epoch number    3 batch   20 Current loss 0.1025
+
+Train: Epoch number    3 batch   21 Current loss 0.1021
+
+Non duplicate entries(i.e. class labels) as feature vectors:  332

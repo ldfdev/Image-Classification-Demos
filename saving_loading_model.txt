@@ -1,0 +1,17 @@
+Case # 2: Save model to resume training later: If you need to keep training the model that you are
+about to save, you need to save more than just the model. You also need to save the state of the
+optimizer, epochs, score, etc. You would do it like this:
+
+state = {
+    'epoch': epoch,
+    'state_dict': model.state_dict(),
+    'optimizer': optimizer.state_dict(),
+    ...
+}
+torch.save(state, filepath)
+
+To resume training you would do things like: state = torch.load(filepath), and then,
+to restore the state of each individual object, something like this:
+
+model.load_state_dict(state['state_dict'])
+optimizer.load_state_dict(state['optimizer'])
